@@ -91,21 +91,9 @@ Hybrid Protection Model
 ## System Workflow
 
 ```
-User buys weekly insurance plan
-        ↓
-System monitors external conditions
-        ↓
-Data collected (weather, traffic, temperature)
-        ↓
-Severity score is calculated
-        ↓
-If high → Major disruption → Payout triggered
-If medium → Minor disruption → Reward given
-If low → No action
-        ↓
-If payout → calculate (Expected Earnings - Actual Earnings)
-        ↓
-Amount credited to user
+
+<img width="1093" height="510" alt="image" src="https://github.com/user-attachments/assets/c59a511d-62ad-4576-b8c5-e1ba1c70ba79" />
+
 ```
 
 ---
