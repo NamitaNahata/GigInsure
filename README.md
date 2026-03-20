@@ -5,11 +5,21 @@
 
 ## Requirement & Persona-Based Scenario
 
-Food delivery partners working with platforms like Swiggy and Zomato rely on daily orders for their income. Their earnings are directly affected by external factors such as rain, traffic congestion, and extreme heat.
+Food delivery partners working with platforms such as Swiggy and Zomato earn their income primarily based on the number of deliveries they complete. Their earnings are directly influenced by external factors such as weather conditions, traffic congestion, and temperature.
 
-During heavy rain or extreme conditions, riders are often unable to complete deliveries, which directly reduces their income. These disruptions are unavoidable, yet riders bear the full financial impact.
+Unlike salaried workers, delivery partners face immediate income loss when disruptions occur, as their earnings depend on daily activity and efficiency.
 
-DeliverShield is designed for this persona by focusing on actual income loss rather than just events, while keeping the system simple and accessible, including support for multiple languages.
+Persona: Food Delivery Partner
+
+The system is designed for a food delivery partner who:
+
+Relies on daily completed orders for income
+
+Works across different areas with varying demand levels
+
+Is affected by real-world conditions such as rain, traffic, and heat
+
+Has no fixed salary or guaranteed earnings
 
 ---
 
