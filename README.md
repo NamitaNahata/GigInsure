@@ -13,13 +13,35 @@ Persona: Food Delivery Partner
 
 The system is designed for a food delivery partner who:
 
-Relies on daily completed orders for income
+        1.Relies on daily completed orders for income
 
-Works across different areas with varying demand levels
+        2.Works across different areas with varying demand levels
 
-Is affected by real-world conditions such as rain, traffic, and heat
+        3.Is affected by real-world conditions such as rain, traffic, and heat
 
-Has no fixed salary or guaranteed earnings
+        4.Has no fixed salary or guaranteed earnings
+        
+Core Problem
+
+        1.Delivery partners currently bear the full financial impact of these disruptions. Existing systems:
+
+        2.Do not compensate for real-time income loss
+
+        3.Focus only on traditional insurance models
+
+        4.Ignore frequent but lower-impact disruptions such as traffic and heat
+
+Requirement
+
+        1.There is a need for a system that:
+
+        2.Protects against major income disruptions
+
+        3.Accounts for both severe and frequent minor disruptions
+
+        4.Provides automated and timely compensation
+
+        5.Remains simple, transparent, and affordable
 
 ---
 
