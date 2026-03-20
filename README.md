@@ -216,14 +216,59 @@ The system categorizes triggers into two groups based on disruption impact:
 
 ## AI / ML Integration
 
-AI is used in a simple and practical way within the system:
+Key Areas of AI Integration
 
-- Severity score calculation  
-- Expected earnings prediction using past patterns  
-- Decision logic to trigger payouts  
-- Fraud detection using GPS validation and movement checks  
+1. Severity Assessment
 
-The focus is on explainable and implementable models.
+        *Combines multiple inputs such as rainfall, duration, wind speed, traffic delay, and temperature.
+
+        *Evaluates disruption intensity.
+
+        *Classifies events into severity levels (moderate, high, extreme).
+
+2. Expected Earnings Prediction
+
+        *Estimates how much a rider should normally earn under non-disrupted conditions.
+
+        *Uses basic historical patterns such as:
+
+                1.Average number of orders
+
+                2.Time-based demand patterns
+
+                3.Location-based activity levels
+
+3. Decision Logic (Trigger Engine)
+
+        *Uses rule-based intelligence combined with threshold conditions.
+
+        *Determines:
+
+                1.Whether a disruption qualifies for payout.
+
+                2.Whether it should be handled as a reward instead.
+
+4. Fraud Detection
+
+        *Validates rider activity using:
+
+                1.Device ID verification
+
+                2.Location consistency checks
+
+        *Prevents:
+
+                1.Duplicate claims
+
+                2.Claims from incorrect locations
+
+5. Risk Profiling for Pricing
+
+        *Uses location-based historical data.
+
+        *Classifies areas into risk categories (low, medium, high).
+
+        *Helps determine weekly premium pricing.
 
 ---
 
