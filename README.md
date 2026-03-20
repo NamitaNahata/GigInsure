@@ -92,7 +92,28 @@ Hybrid Protection Model
 
 ```
 
-<img width="1093" height="510" alt="image" src="https://github.com/user-attachments/assets/c59a511d-62ad-4576-b8c5-e1ba1c70ba79" />
+User subscribes to weekly premium
+        ↓
+System collects real-time data
+(Weather, Traffic, Temperature)
+        ↓
+System performs two parallel evaluations:
+
+1. Weather Engine → Insurance Processing
+2. Traffic & Heat Engine → Rewards Processing
+        ↓
+Weather Engine:
+    If disruption severity is high or extreme
+    → Trigger payout
+
+Traffic & Heat Engine:
+    If traffic delay or temperature exceeds threshold
+    → Award coins (reward system)
+        ↓
+If payout is triggered:
+    Payout = (Expected Earnings − Actual Earnings) × Severity Factor
+        ↓
+Final amount is credited to the rider
 
 ```
 
