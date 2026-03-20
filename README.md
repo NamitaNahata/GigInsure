@@ -154,13 +154,63 @@ When a rider subscribes to the weekly plan, they receive two types of benefits u
 
 ## Parametric Triggers
 
-The system uses measurable external factors to detect disruptions:
+The system uses a parametric approach to detect disruptions and trigger compensation automatically. Instead of relying on manual claims, predefined measurable conditions are used to identify when a rider’s income is affected.
 
-- Rainfall intensity  
-- Traffic congestion  
-- Temperature levels  
+Types of Triggers Used
 
-These inputs are continuously monitored and combined into a severity score.
+The system categorizes triggers into two groups based on disruption impact:
+
+        1. Major Disruption Triggers (Insurance)
+
+        These triggers are used for high-impact events that significantly affect rider income.
+
+        Parameters considered:
+
+                1.Rainfall intensity (in mm)
+
+                2.Duration of rainfall
+
+                3.Wind speed (for extreme conditions)
+
+        Severity levels:
+
+                1.Moderate → Rain ≥ 30 mm and Duration ≥ 30 minutes
+
+                2.High → Rain ≥ 50 mm and Duration ≥ 60 minutes
+
+                3.Extreme → Rain ≥ 70 mm and Wind Speed ≥ 40 km/h
+
+        When these thresholds are met, the system:
+
+                1.Classifies the severity level
+
+                2.Calculates income loss
+
+                3.Automatically triggers payout
+
+        2. Minor Disruption Triggers (Rewards)
+
+        These triggers handle frequent but lower-impact conditions.
+
+        Parameters considered:
+
+                *Traffic delay (compared to normal travel time)
+
+                *Temperature levels
+
+        Trigger conditions:
+
+                1.Traffic delay ≥ 1.5× → Reward eligible
+
+                2.Temperature ≥ 40°C → Reward eligible
+
+                3.If both occur → Additional bonus reward
+
+        When triggered, the system:
+
+                *Allocates coins to the rider’s reward wallet
+
+                *Records the event in reward history
 
 ---
 
