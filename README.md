@@ -55,23 +55,23 @@ The system is designed to be simple, automated, and aligned with real-world work
 
 Hybrid Protection Model
 
-DeliverShield operates using two complementary components:
+        Gig Insure operates using two components:
 
-1. Parametric Insurance (Major Disruptions)
-This component handles high-impact events such as heavy rain and cyclones.
-
-Uses predefined measurable parameters such as rainfall, duration, and wind speed
-
-Automatically detects disruption severity
-
-Triggers payouts without requiring manual claims
-
-Compensation is based on actual income loss
-
-Loss is calculated as:
-Loss = Expected Earnings − Actual Earnings
-
-Payout is then determined using a severity-based factor.
+        1. Parametric Insurance (Major Disruptions)
+        This component handles high-impact events such as heavy rain and cyclones.
+        
+                1.Uses parameters such as rainfall, duration, and wind speed.
+        
+                2.Automatically detects disruption severity.
+        
+                3.Triggers payouts without requiring manual claims
+        
+                4.Compensation is based on actual income loss
+        
+                        Loss is calculated as:
+                        Loss = Expected Earnings − Actual Earnings
+        
+        Payout is then determined using a severity-based factor.
 
 ---
 
