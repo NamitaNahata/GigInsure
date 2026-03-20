@@ -126,7 +126,29 @@ The system follows a weekly premium model aligned with how delivery partners ear
 - Riders pay a small fixed amount (₹30–₹50 per week)  
 - Premium can vary based on risk factors such as location and past disruptions  
 
-This ensures affordability while maintaining a sustainable risk pool.
+Coverage Included in the Premium
+
+When a rider subscribes to the weekly plan, they receive two types of benefits under a single premium:
+
+        1. Major Disruption Insurance
+        
+                *Covers high-impact events such as heavy rain and cyclones.
+        
+                *Automatically triggers payouts when disruption thresholds are met.
+        
+                *Compensation is based on actual income loss.
+        
+        2. Minor Disruption Reward System
+        
+                *Covers frequent but lower-impact conditions such as traffic and high temperature.
+
+                *Instead of payouts, riders receive coins as rewards
+        
+                Coins accumulate over time and can be:
+        
+                        1.Redeemed as cash
+        
+                        2.Used for future premium payments
 
 ---
 
