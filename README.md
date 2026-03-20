@@ -49,21 +49,29 @@ There is a need for a system that:
 
 ## Our Solution
 
-DeliverShield is an AI-powered parametric insurance system designed specifically for food delivery partners.
+Gig Insure is a hybrid financial protection system designed specifically for food delivery partners. It combines parametric insurance with a reward-based mechanism to address both high-impact and frequent low-impact disruptions affecting rider income.
 
-Instead of reacting only to events, the system evaluates real-world conditions and measures their impact on a rider’s ability to earn.
+The system is designed to be simple, automated, and aligned with real-world working conditions, ensuring that compensation is fair and timely.
 
-Disruptions are classified into two categories:
-- Major disruptions, which trigger payouts  
-- Minor disruptions, which provide limited reward-based compensation  
+Hybrid Protection Model
 
-For major disruptions, loss is calculated as:
+DeliverShield operates using two complementary components:
 
-$$
-\text{Loss} = \text{Expected Earnings} - \text{Actual Earnings}
-$$
+1. Parametric Insurance (Major Disruptions)
+This component handles high-impact events such as heavy rain and cyclones.
 
-This ensures that payouts reflect actual income loss rather than fixed assumptions.
+Uses predefined measurable parameters such as rainfall, duration, and wind speed
+
+Automatically detects disruption severity
+
+Triggers payouts without requiring manual claims
+
+Compensation is based on actual income loss
+
+Loss is calculated as:
+Loss = Expected Earnings − Actual Earnings
+
+Payout is then determined using a severity-based factor.
 
 ---
 
