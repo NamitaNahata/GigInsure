@@ -1315,9 +1315,14 @@ async def startup():
         f.write("## Auth Endpoints\n- POST /api/auth/register\n- POST /api/auth/login\n- GET /api/auth/me\n- POST /api/auth/logout\n- POST /api/auth/refresh\n")
     logger.info("GigInsure backend started")
 
+@app.get("/")
+async def root():
+    return {"message": "GigInsure backend is running 🚀"}
+
 @app.on_event("shutdown")
 async def shutdown_db_client():
     client.close()
+    
 
 # Include router and middleware
 app.include_router(api_router)
